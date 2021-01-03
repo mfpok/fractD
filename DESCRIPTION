@@ -1,0 +1,21 @@
+Package: fractD
+Type: Package
+Title: Estimation of fractal dimension of a black area in 2D and 3D (slices) images
+Version: 0.1.0
+Author: Francesco Paolo Mancuso
+Maintainer: Francesco Paolo Mancuso <fscopaolo.mancuso@gmail.com>
+Description: Estimate the of fractal dimension of a black area in 2D and 3D (slices) images using the box-counting method.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.0
+Imports: 
+    imager (>= 0.42.1),
+    parallel (>= 3.5.1),
+    plyr (>= 1.8.4),
+    stats (>= 3.5.1),
+    utils (>= 3.5.1)
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
