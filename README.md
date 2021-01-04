@@ -4,7 +4,7 @@
 
 <!-- badges: start -->
 <!-- badges: end -->
-The goal of fractD is to ...
+The goal of fractD is to calculate the fractal dimension of 2D and 3D (slices) images.
 
 ## Installation
 
