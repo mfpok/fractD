@@ -17,6 +17,7 @@ devtools::install_github("mfpok/fractD")
 
 The package `fractD` contains two fuctions `fract2D` and `fract3D` that allow to estimate the fractal dimension (D) of 2D and 3D images. Fractal dimension is estimated by the method of box-counting. Box-counting method is useful to calculate the fractal dimension of various sets of any dimension and patterns with or withouth self-similarity (Klinkenberg, 1994). The method overlay a series of squares (for `fract2D`) or cubes (for `fract3D`) of different sizes. Then, for each size step the functions keep track of the number of squares or cubes occupied by the black area into the image. Finally, the fractal dimension (D) is estimated by linear regression of log(n°boxes) on log(box.size).
 
+## fract2D function
 The following illustration show the rational behind the function `fract2D`:
 
 ![](vignettes/box-counting_2D_image.svg)
@@ -55,6 +56,7 @@ fct2D$raw.dat # Raw data from which fractal dimension was calculated
 #> 10 fig_1      512      6
 ```
 
+## fract3D function
 The following illustration show the rational behind the function `fract3D`:
 
 ![](vignettes/box-counting_3D_image.svg)
