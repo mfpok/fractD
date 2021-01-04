@@ -8,13 +8,7 @@ The goal of fractD is to calculate the fractal dimension of 2D and 3D (slices) i
 
 ## Installation
 
-You can install the released version of fractD from [CRAN](https://CRAN.R-project.org) with:
-
-``` r
-install.packages("fractD")
-```
-
-And the development version from [GitHub](https://github.com/) with:
+You can install the development version from [GitHub](https://github.com/) with:
 
 ``` r
 # install.packages("devtools")
